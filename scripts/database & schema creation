@@ -8,7 +8,6 @@ Script Purpose:
     This script creates a new database named 'DataWarehouse'
 ------------------------------------------------------------- 
 
-
 USE master;
 GO
 
