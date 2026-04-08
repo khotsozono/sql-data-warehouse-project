@@ -43,77 +43,15 @@ The data architecture for this project follows Medallion Architecture: **Bronze*
 <img width="652" height="442" alt="Data Flow Diagram" src="https://github.com/user-attachments/assets/880779ab-2de9-42a8-b24b-d1c93d44714a" />
 
 --- 
+## Data Integration 
 
-**Programming & Querying**
+The data integration layer combines information from both CRM and ERP systems to create a unified view of customers, products, and sales activity. The CRM system provides transactional sales data through **crm_sales_details**, which links customer information (**crm_cust_info**) and product information (**crm_prd_info**) using shared keys. The ERP system enriches this data by adding additional customer and product context, including customer location details from **erp_loc_a101**, extended customer attributes from **erp_cust_az12**, and product category information from **erp_px_cat_g1v2**. By connecting these tables through common identifiers such as customer IDs, product keys, and category IDs, the integration process consolidates operational and transactional data into a consistent structure that supports accurate analytics and reporting within the data warehouse.
 
-* SQL (Data querying, joins, transformations)
-* Python (Foundations for data analysis)
+<p align="center"> 
+<img width="600" height="500" alt="Data Intergration Visual" src="https://github.com/user-attachments/assets/edaaf3c7-fad4-4964-9cc0-08c8956ceb71" />
 
-**Core Competencies**
 
-* Data Cleaning & Preparation
-* Data Modeling
-* Dashboard Development
-* KPI Reporting
-* Data Visualization
-* Business Insight Generation
 
----
-
-## 📊 Featured Projects
-
-### Sales Performance Dashboard
-
-**Tools:** SQL Server, Power BI
-
-* Extracted and transformed operational data using SQL
-* Designed interactive dashboards to monitor KPIs
-* Enabled clearer visibility into sales performance trends
-
-👉 View Project: [Project Link]
-
----
-
-### Customer Insights Analysis
-
-**Tools:** SQL, Excel, Power BI
-
-* Analyzed customer behavior and segmentation patterns
-* Identified key revenue-driving customer groups
-* Presented insights through visual dashboards
-
-👉 View Project: [Project Link]
-
----
-
-## 📸 Dashboard Preview
-
-*(Insert dashboard screenshots here)*
-
-![Dashboard Preview](images/dashboard.png)
-
----
-
-## 🎯 Career Focus
-
-I am interested in opportunities within:
-
-* Business Intelligence Development
-* Data Analytics
-* Reporting & Visualization
-* Entry-Level Data Engineering
-
----
-
-## 🤝 Professional Strengths
-
-✔ Analytical problem-solving
-✔ Business-focused thinking
-✔ Strong attention to detail
-✔ Adaptability and continuous learning
-✔ Collaborative teamwork
-
----
 
 ## 📬 Connect With Me
 
