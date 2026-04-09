@@ -2,13 +2,13 @@
 
 🎓 Information Science Graduate | 📊 Junior Business Intelligence Developer | 📈 Aspiring Data Analyst
 
-This project marks the beginning of my journey in Business Intelligence and data analytics, and it is the first of many projects I plan to develop as I continue growing in this field. I am committed to continuously learning, improving my technical and analytical skills, and staying adaptable to new tools and technologies. My goal is to use data-driven insights to help organizations make informed decisions, improve efficiency, and ultimately become more profitable through the value created by my work.
+This project marks the beginning of my journey in Business Intelligence and data analytics, and it is the first of many projects I plan to develop as I continue growing in this field. I am committed to continuously learning, improving my technical and analytical skills, and staying adaptable to new tools and technologies. My goal is to use data driven insights to help organisations make informed decisions, improve efficiency, and ultimately become more profitable through the value created by my work.
 
 ---
 
 ## SQL Data Warehouse Project
 
- This project involved designing and building a SQL-based data warehouse from scratch using the Medallion Architecture approach. The solution was structured into bronze, silver, and gold layers to support efficient data ingestion, transformation, and analytics-ready reporting. Through this project, I applied data modeling and SQL transformation techniques to organize and refine raw data into meaningful business information. The development process was completed with guidance and learning resources from Data with Baraa, who helped strengthen my understanding of modern data warehousing practices. 
+ This project involved designing and building a SQL-based data warehouse from scratch using the Medallion Architecture approach. The solution was structured into bronze, silver, and gold layers to support efficient data ingestion, transformation, and analytics ready reporting. Through this project, I applied data modeling and SQL transformation techniques to organize and refine raw data into meaningful business information. The development process was completed with guidance and learning resources from Data with Baraa, who helped strengthen my understanding of modern data warehousing practices. 
 
  This project involves:
 
@@ -37,7 +37,7 @@ The data architecture for this project follows Medallion Architecture: **Bronze*
 
 ## Data Flow   
 
- The data flow of this SQL data warehouse follows the Medallion Architecture, moving data through Bronze, Silver, and Gold layers to progressively improve data quality and usability. Raw data from CRM and ERP source systems is first ingested into the Bronze layer, where it is stored in its original form for traceability. The data is then cleaned, standardized, and integrated in the Silver layer, ensuring consistency and readiness for analysis. Finally, the refined data is transformed into business-focused models in the Gold layer, where fact and dimension tables (such as sales, customers, and products) are created to support reporting, analytics, and decision-making. 
+ The data flow of this SQL data warehouse follows the Medallion Architecture, moving data through Bronze, Silver, and Gold layers to progressively improve data quality and usability. Raw data from CRM and ERP source systems is first ingested into the Bronze layer, where it is stored in its original form for traceability. The data is then cleaned, standardized, and integrated in the Silver layer, ensuring consistency and readiness for analysis. Finally, the refined data is transformed into business focused models in the Gold layer, where fact and dimension tables (such as sales, customers, and products) are created to support reporting, analytics, and decision-making. 
  
 <p align="center"> 
 <img width="700" height="500" alt="Data Flow Diagram" src="https://github.com/user-attachments/assets/880779ab-2de9-42a8-b24b-d1c93d44714a" />
